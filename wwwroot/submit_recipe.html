@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My Website - Home</title>
+  <title>My Website - Submit Recipe</title>
 
   <link rel="stylesheet" href="mywebsite.css">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="submit_recipe.css">
 </head>
 
 <body>
@@ -24,7 +24,26 @@
   </header>
   <main>
     <div>
-      <p>Submit a recipe</p>
+      <h1>Submit a recipe</h1>
+
+      <form class="submit-recipe">
+        <label for="name">Recipe name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="prepTime">Prep time (mins):</label><br>
+        <input type="number" id="prepTime" name="prepTime"><br>
+
+        <label for="totalTime">Total time:</label><br>
+        <input type="number" id="totalTime" name="totalTime"><br>
+
+        <label for="ingredients">Ingredients:</label><br>
+        <input type="text" id="ingredients" name="ingredients"><br>
+
+        <label for="steps">Recipe steps:</label><br>
+        <textarea id="steps" name="steps"></textarea><br>
+
+        <input type="submit" id="submit">
+      </form>
     </div>
   </main>
   <footer>
