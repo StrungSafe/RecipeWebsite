@@ -3,35 +3,42 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My Website - About Me</title>
+  <title>My Website - Home</title>
 
   <link rel="stylesheet" href="mywebsite.css">
-  <link rel="stylesheet" href="about_me.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-  <div>
-    <h2>Pages</h2>
+  <header>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="recipe.html">Recipe</a>
+      <a href="submit_recipe.html">Submit Recipe</a>
+    </nav>
 
-    <div>
-      <ul>
-        <i><a href="home.html">Home</a></i>
-        <i><a href="about_me.html">About Me</a></i>
-        <i><a href="recipe.html">Recipe</a></i>
-        <i><a href="submit_recipe.html">Submit Recipe</a></i>
-      </ul>
+    <div class="banner">
+      My Recipe Website
     </div>
+  </header>
+  <main>
+    <div class="about-me">
+      <h1>About Remy Oswalt</h1>
 
-    <h1>About Me</h1>    
-
-    <div>
-      <p>
-        My name is John Doe. I love food and here are my favorite recipes!
-        <!-- TODO: Link to other pages -->
-        <!-- TODO: Add more information about "me" -->
-        <!-- TODO: Add contact information -->
-      </p>
+      <div class="about-me-details">
+        <p>
+          I'm a mouse. I like cheese and wine. Here are my fav recipes. Not fond of catz.
+        </p>
+      </div>
+      <div class="about-me-pic">
+        <img src="images/RemyOswalt.png"></img>
+      </div>
     </div>
+  </main>
+  <footer>
+    Remy Oswalt is the sole properieter of the contents of this webpage.
+  </footer>
   </div>
 </body>
 
