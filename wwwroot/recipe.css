@@ -1,0 +1,13 @@
+.ingredients-table table {
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients-table table tr th {
+    border: 1px solid green;
+}
+
+.ingredients-table table tr td {
+    border: 1px solid green;
+}

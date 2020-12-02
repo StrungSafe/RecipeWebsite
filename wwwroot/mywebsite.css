@@ -1,12 +1,49 @@
 h1 {
     text-align: center;
-    color: navy;
 }
 
 nav a {
-    margin-right: 1rem;
+    padding-right: 1rem;
 }
 
 footer {
     font-size: small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url("images/cheese.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #cccccc;
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: green;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:active {
+    color: green;
 }

@@ -1,3 +1,7 @@
 .submit-recipe input {
     margin-bottom: 1rem;
 }
+
+.submit-recipe textarea {
+    margin-bottom: 1rem;
+}
