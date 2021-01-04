@@ -1,3 +1,11 @@
+.main {
+    background: white;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 66%;
+}
+
 h1 {
     text-align: center;
 }
