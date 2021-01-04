@@ -1,13 +1,26 @@
+.ingredients-body {
+    display:flex;
+    margin-bottom: 2rem;
+}
+
+.ingredients-table {
+    flex: 1;
+}
+
 .ingredients-table table {
-    border: 1px solid green;
+    border: 1px solid #A63000;
     margin-left: auto;
     margin-right: auto;
 }
 
 .ingredients-table table tr th {
-    border: 1px solid green;
+    border: 1px solid #A63000;
 }
 
 .ingredients-table table tr td {
-    border: 1px solid green;
+    border: 1px solid #A63000;
+}
+
+.recipe {
+    flex: 1;
 }
