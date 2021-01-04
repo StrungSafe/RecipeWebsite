@@ -24,3 +24,8 @@
 .recipe {
     flex: 1;
 }
+
+.recipe ol li {
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
